@@ -1,0 +1,89 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+<section class="pag1">
+    <div class="menu">
+
+       <div id="menu1">
+           <!-- <div class="logoM">
+               <p class="nombre">DangerMap</p>
+           </div><br><br> -->
+           <div class="contenido">
+               <!-- <div class="buscar" >Buscar</div> -->
+               <input type="text" name="busqueda" id="busqueda2" placeholder="Buscar">
+               <!-- <i class="material-icons">search</i> -->
+               <input type="button" class="botonb" onclick="busqueda()">
+                   <i class="material-icons" onclick="busqueda()">search</i>
+               
+           </div><br>
+           <div class="mapa"><img src="./mapa_riesgos.png" alt=""></div>
+           <!-- <div>
+               <button name="boton_reportar" onclick="reporte()" >Reportar zona peligrosa</button>
+           </div> -->
+       </div>
+
+       <div id="menu2" style="display: none">
+           <!-- <i class="material-icons" id="backmenu2" onclick="regresar()">arrow_back</i>
+           <div class="logoM">
+               <p class="nombre">DangerMap</p>
+           </div><br><br> -->
+           <!-- <input type="text" name="busqueda" id="busqueda2" placeholder="Buscar"> -->
+           <div class="mapa02"><img src="./Mapa_Bog.png" alt=""></div>
+       </div>
+
+       <div class="formulario" style="display: none" id="menu3">
+           <!-- <i class="material-icons" id="backmenu2" onclick="regresar()">arrow_back</i> -->
+           <div>Reportar zona</div>
+           <select>
+               <option style="color: gray;">Localidad</option>
+               <option>Antonio Nariño</option>
+               <option>Barrios Unidos</option>
+               <option>Bosa</option>
+               <option>Chapinero</option>
+               <option>Ciudad Bolívar</option>
+               <option>Engativá</option>
+               <option>Fontibón</option>
+               <option>Kennedy</option>
+               <option>La Candelaria</option>
+               <option>Los Mártires</option>
+               <option>Puente Aranda</option>
+               <option>Rafael Uribe Uribe</option>
+               <option>San Cristóbal</option>
+               <option>Santa fe</option>
+               <option>Suba</option>
+               <option>Sumapaz</option>
+               <option>Teusaquillo</option>
+               <option>Tunjuelito</option>
+               <option>Usaquén</option>
+               <option>Usme</option>
+           </select>
+           <input type="text" placeholder="Sector"><br>
+           <input type="text" placeholder="Dirección"><br>
+           <select name="" id="">
+               <option style="color: gray;">Delito cometido</option>
+               <option>Hurto</option>
+               <option>Homicidio</option>
+               <option>Trafico de estupefacientes</option>
+               <option>Porte de armas ilegales</option>
+           </select><br>
+           <input type="text" id="descripcion" placeholder="Descripción del hecho"><br>
+           <!-- <button class="boton_reporte" onclick="enviar()">Enviar reporte</button> -->
+       </div>
+
+       <div id="menu4" style="display: none">
+           <i class="material-icons" id="backmenu2" onclick="regresar()">arrow_back</i>
+           <div class="comentario">¡Gracias por reportar los acontecimientos sucedidos!</div>
+           <!-- <div class="comentario2">Pronto será subido al sistema</div> -->
+       </div>
+    </div>
+   </section>
+
+   

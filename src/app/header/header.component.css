@@ -1,0 +1,24 @@
+.logoM{
+    background-image: url(./Logo_aplicacion_Prg.png);
+    width: 100px;
+    height: 115px;
+    margin-left: 25%;
+    margin-top: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.nombre{
+    margin-left: 110px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+p{
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+}

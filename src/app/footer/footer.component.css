@@ -1,0 +1,19 @@
+button{
+    width: 380px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 100px;
+    border-radius: 60px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(233, 69, 4);
+    border: 2px solid rgb(255, 30, 0);
+    color: white;
+    box-shadow: 4px 6px 4px rgb(23 85 201);
+}
+.boton_reporte{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 40px;
+    color: white;
+}
